@@ -1,0 +1,14 @@
+.todo-list {
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                color: #FFFFFF;
+                margin-right: 5px;
+            }
+            
+        }
+    }
+}

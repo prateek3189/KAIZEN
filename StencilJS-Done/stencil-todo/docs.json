@@ -1,0 +1,193 @@
+{
+  "timestamp": "2019-07-28T04:10:29",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.0.7",
+    "typescriptVersion": "3.5.2"
+  },
+  "components": [
+    {
+      "tag": "app-add-item",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [
+        {
+          "event": "addItem",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-details",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "match",
+          "type": "MatchResults",
+          "mutable": false,
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-list-item",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "completed",
+          "type": "any",
+          "mutable": false,
+          "attr": "completed",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemId",
+          "type": "any",
+          "mutable": false,
+          "attr": "item-id",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemName",
+          "type": "any",
+          "mutable": false,
+          "attr": "item-name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "todoCompleted",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-loader",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-root",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-timer",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": [],
+      "slots": []
+    },
+    {
+      "tag": "app-todolist",
+      "encapsulation": "none",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [
+        {
+          "name": "myMethod",
+          "returns": {
+            "type": "Promise<number>",
+            "docs": ""
+          },
+          "signature": "myMethod() => Promise<number>",
+          "parameters": [],
+          "docs": "",
+          "docsTags": []
+        },
+        {
+          "name": "myMethod2",
+          "returns": {
+            "type": "Promise<number>",
+            "docs": ""
+          },
+          "signature": "myMethod2() => Promise<number>",
+          "parameters": [],
+          "docs": "",
+          "docsTags": []
+        },
+        {
+          "name": "myMethod3",
+          "returns": {
+            "type": "Promise<void>",
+            "docs": ""
+          },
+          "signature": "myMethod3() => Promise<void>",
+          "parameters": [],
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "events": [],
+      "styles": [],
+      "slots": []
+    }
+  ]
+}
