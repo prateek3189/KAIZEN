@@ -4,3 +4,6 @@
 // }); 
  
 // const map = new Map();
+
+let a;
+a = 1 + 3;
